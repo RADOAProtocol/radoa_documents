@@ -1,6 +1,6 @@
 site_name: RADOA # サイトの名前
-# repo_url:
-# edit_uri:
+repo_url: https://github.com/RADOAProtocol/radoa_documents/
+edit_uri: edit/main/docs/
 theme:
   name: material
   language: 'en'
