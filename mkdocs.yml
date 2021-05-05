@@ -3,10 +3,31 @@ repo_url: https://github.com/RADOAProtocol/radoa_documents/
 edit_uri: edit/main/docs/
 theme:
   name: material
+  custom_dir: overrides
   language: 'en'
   features:
     - navigation.tracking
     - navigation.tabs
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
 
 nav:
   - 'Home': index.md
@@ -42,7 +63,7 @@ extra:
     language: 'en'
 
 extra_css:
-  - stylesheets/extra.css
+  # - stylesheets/extra.css
   # - stylesheets/dark_theme.css
   # - stylesheets/codehilite.css
   # Latex
