@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Hiragino-Mincho";
+  src: url(fonts/Hiragino_mintyo.ttc) format("truetype");
+}
+
+@font-face {
+  font-family: "Hiragino_Kakugo";
+  src: url(fonts/Hiragino_Kakugo.ttc) format("truetype");
+}
+
+@font-face {
+  font-family: "Klee";
+  src: url(fonts/Klee.ttc) format("truetype");
+}
+
+/* :root > * { */
+/*   --md-text-font-family: "Klee"; */
+/* } */
+

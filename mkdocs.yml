@@ -25,12 +25,14 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
-  icon:
-    logo: logo
+  logo: RADOA.jpeg
 
 nav:
   - 'Home': index.md
+  - 'Note':
+    - '初めに': Note/index.md
+    - 'マイコン': Note/micon.md
+    - 'Mbed OS': Note/mbed_os.md
 
 markdown_extensions:
   - pymdownx.highlight:
