@@ -31,8 +31,12 @@ nav:
   - 'Home': index.md
   - 'Note':
     - '初めに': Note/index.md
-    - 'マイコン': Note/micon.md
-    - 'Mbed OS': Note/mbed_os.md
+    - 'Mbed':
+      - 'Mbed' : Note/Mbed/index.md
+      - 'Mbedの環境構築' : Note/Mbed/How_to_use_mbed.md
+    - 'Mbed Samples' :
+      - 'Interrupt' : Note/Samples/Interrupt.md
+      - 'Thread' : Note/Samples/Thread.md
 
 markdown_extensions:
   - pymdownx.highlight:
