@@ -1,4 +1,0 @@
-Usage: mkdocs serve [OPTIONS]
-Try 'mkdocs serve -h' for help.
-
-Error: Got unexpected extra argument (https://127.0.0.1:8000/)
